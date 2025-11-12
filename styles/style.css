@@ -426,6 +426,183 @@ cursor: pointer;
 
  }
 
+ .next-target{
+   
+width: 1895px;
+height: 866px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 48;
+margin-top: 111px;
+ }
+ .nt-description{
+    
+width: 852px;
+height: 113px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+
+
+ }
+ .nt-title{
+    color: rgba(13, 19, 33, 1);
+
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+width: 852px;
+height: 37px;
+ }
+
+ .nt-subtitle{
+    color: rgba(13, 19, 33, 1);
+
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+width: 852px;
+height: 52px;
+opacity: 0.7;
+
+ }
+
+ .nt-box{
+
+width: 1140px;
+height: 219px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+padding: 40px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgba(255, 255, 255, 1);
+margin-top: 90px;
+
+
+ }
+ .nt-box-2{
+
+width: 1140px;
+height: 219px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+padding: 40px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgba(255, 255, 255, 1);
+margin-top: 30px;
+
+
+
+ }
+ .nt-box-3{
+
+width: 1140px;
+height: 219px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+padding: 40px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgba(255, 255, 255, 1);
+margin-top: 30px;
+
+
+ }
+
+ .nt-info{
+  /* Frame 10 */
+width: 1060px;
+height: 139px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+
+ }
+ .nt-img{
+    width: 94.78px;
+height: 108px;
+ }
+
+ .nt-node{
+    /* nodejs-1 1 */
+width: 130px;
+height: 88px;
+ }
+ .nt-textbox{
+width: 941.22px;
+height: 139px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+margin-left: 30px;
+
+
+ }
+
+ .nt-box-title{
+    color: rgba(13, 19, 33, 1);
+
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+width: 94px;
+height: 10px;
+ }
+
+ .nt-box-subtitle{
+    color: rgba(13, 19, 33, 1);
+
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+width: 941.22px;
+height: 52px;
+opacity: 0.7;
+
+ }
+
+ #footer{
+    background-image: url(../assets/handshake.jpg);
+    
+ }
+
+
  
 
 
