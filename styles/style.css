@@ -597,11 +597,163 @@ opacity: 0.7;
 
  }
 
- #footer{
-    background-image: url(../assets/handshake.jpg);
-    
+ .footer{
+    width: 1895px;
+height: 866px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 48;
  }
 
+
+ 
+.foot-img{
+   background-image: url(../assets/handshake.jpg);
+width: 1140px;
+height: 313px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+padding: 64px 48px 64px 48px;
+margin-top: 100px;
+border-radius: 16px;
+background:rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+}
+
+ .foot-box{
+
+width: 1044px;
+height: 185px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 24;
+
+
+ }
+
+ .foot-description{
+width: 730px;
+height: 104px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16;
+
+
+ }
+
+ .foot-title{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+width: 292px;
+height: 15px;
+ }
+
+ .foot-sub{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+width: 606px;
+height: 52px;
+opacity: 0.7;
+margin-bottom: 80px;
+
+ }
+
+ .search-box{
+/* Frame 23 */
+width: 684px;
+height: 57px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 16;
+
+
+
+ }
+ .search-area{
+width: 548px;
+height: 57px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 10;
+padding: 19px 20px 19px 20px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgba(255, 255, 255, 1);
+
+
+ }
+
+ .search-box-text{
+    color: rgba(13, 19, 33, 0.4);
+
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+width: 400px;
+height: 25px;
+border: none;
+ }
+
+.sub-area{
+width: 120px;
+height: 23px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 17px 20px 17px 20px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 1);
+margin-left: 10px;
+
+
+}
+.sub{
+ color: rgba(13, 19, 33, 1);
+
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+width: 80px;
+height: 23px;
+background:none;
+border: none;
+cursor: pointer;
+}
 
  
 
